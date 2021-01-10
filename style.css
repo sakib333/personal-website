@@ -1,5 +1,6 @@
 body{
-    font-family: 'Amarante', cursive;
+    font-family: 'Noto Serif', serif;
+    font-stretch: expanded;
 }
 #name-highlight{
     color: blueviolet;
@@ -43,4 +44,18 @@ section{
 .third{
     text-align: center;
     margin-left: 50px;
+    background-color: rgb(224, 223, 223);
+    padding-top: 150px;
+}
+
+
+h2{
+    font-size: xx-large;
+}
+h1{
+    font-size: xx-large;
+}
+.top{
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
 }
