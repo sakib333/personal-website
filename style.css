@@ -1,5 +1,5 @@
 body{
-    font-family: 'Noto Serif', serif;
+    font-family: 'Spartan', sans-serif;
     font-stretch: expanded;
 }
 #name-highlight{
@@ -30,12 +30,12 @@ p{
 }
 section{
     padding-bottom: 10px;
-    height: 800px;
+    height: 700px;
 }
 .bottom{
     width: 30%;
     float: left;
-    margin-left: 20px;
+    margin-left: 40px;
     padding: 5px;
     box-shadow: 10px 10px 20px rgb(226, 223, 223);
     border-radius: 20px;
@@ -43,7 +43,6 @@ section{
 }
 .third{
     text-align: center;
-    margin-left: 50px;
     background-color: rgb(224, 223, 223);
     padding-top: 150px;
 }
@@ -58,4 +57,36 @@ h1{
 .top{
     background-image: url(dream-bg.png);
     background-repeat: no-repeat;
+}
+.inquiry{
+    height: 150px;
+    background-image: url(work.png);
+    background-position: center;
+    margin: 100px 400px;
+    padding: 40px 50px;
+    border-radius: 30px;
+    
+    
+}
+#work{
+    float: left;
+    margin-top: 60px;
+    color: wheat;
+    font-weight: 900px;
+   
+}
+#chat{
+    float: right;
+    background-image: linear-gradient( 45deg, lightsalmon, tomato);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 900;
+    color: purple;
+    margin-top: 60px;
+    margin-right: 30px;
+}
+.last-part{
+   margin-top: 50px;
+    text-align: center;
 }
